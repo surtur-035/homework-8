@@ -43,7 +43,7 @@ public class Main {
 
         System.out.println("Задание 3");
         for (int i = numbers.length - 1; i >= 0; i--) {
-            if (i == numbers.length - 3){
+            if (i == 0){
                 System.out.println(numbers[i]);
                 break;
             }
@@ -51,7 +51,7 @@ public class Main {
         }
 
         for (int i = fractionalNum.length - 1; i >= 0; i--) {
-            if (i == fractionalNum.length - 3){
+            if (i == 0){
                 System.out.println(fractionalNum[i]);
                 break;
             }
@@ -59,7 +59,7 @@ public class Main {
         }
 
         for (int i = gamesToPlay.length - 1; i >= 0; i--) {
-            if (i == gamesToPlay.length - 4){
+            if (i == 0){
                 System.out.println(gamesToPlay[i]);
                 break;
             }
